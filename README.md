@@ -28,15 +28,15 @@ A Powerful Telegram AFK Bot written in pyrogram using MongoDB as database and wi
 ## 🖇 VPS Deployment
 
 ```console
-shikhar@MacBook~ $ git clone https://github.com/TeamYukki/YukkiAFKBot
-shikhar@MacBook~ $ cd YukkiAFKBot
+shikhar@MacBook~ $ git clone https://github.com/Micky-Virus/DoraAFKBot
+shikhar@MacBook~ $ cd DoraAFKBot
 shikhar@MacBook~ $ pip3 install -r requirements.txt
 shikhar@MacBook~ $ mv sample.env .env
 ```
 > Edit .env with your values and then start bot with
 
 ```console
-shikhar@MacBook~ $ python3 -m Yukki
+shikhar@MacBook~ $ python3 -m Dora
 ```
 
 ## 🗂 License
