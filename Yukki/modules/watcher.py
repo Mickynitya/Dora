@@ -33,7 +33,7 @@ async def chat_watcher_func(_, message):
         message_text = message.text or message.caption
         for entity in message.entities:
             if entity.type == "bot_command":
-                if (message_text[0 : 0 + entity.length]) in possible:
+                if (message_text[0 : 0 + entity.length]).lower() in possible:
                     return
 
     msg = ""
